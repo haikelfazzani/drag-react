@@ -1,18 +1,15 @@
 {
   "name": "drag-react",
-  "version": "1.0.0",
-  "description": "..",
+  "version": "0.0.1",
+  "description": "React draggable component",
   "main": "lib/index.js",
   "module": "lib/index.esm.js",
   "types": "lib/index.d.ts",
   "files": [
     "/lib"
   ],
-  "homepage": "..",
-  "repository": {
-    "type": "git",
-    "url": ".."
-  },
+  "homepage": "https://haikelfazzani.github.io/react-drag",
+  "repository": "https://github.com/haikelfazzani/react-drag",
   "scripts": {
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
@@ -21,17 +18,12 @@
     "predeploy": "npm run build-storybook",
     "deploy-storybook": "npm run predeploy && gh-pages -d storybook-static"
   },
-  "np": {
-    "publish": false,
-    "tests": false
-  },
-  "keywords": [
-    "stroybook",
-    "react",
-    "typescript"
-  ],
-  "author": "...",
+  "author": "Haikel Fazzani",
   "license": "MIT",
+  "peerDependencies": {
+    "react": ">=16.13.0",
+    "react-dom": ">=16.13.0"
+  },
   "devDependencies": {
     "@babel/core": ">=7.12.9",
     "@rollup/plugin-commonjs": ">=17.0.0",
@@ -52,9 +44,14 @@
     "rollup-plugin-typescript2": ">=0.31.2",
     "typescript": ">=4.1.2"
   },
-  "peerDependencies": {
-    "react": ">=16.13.0",
-    "react-dom": ">=16.13.0"
+  "np": {
+    "publish": false,
+    "tests": false
   },
-  "dependencies": {}
+  "keywords": [
+    "draggable",
+    "component",
+    "react",
+    "typescript"
+  ]
 }

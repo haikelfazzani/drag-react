@@ -1,6 +1,6 @@
 {
   "compilerOptions": {
-    "target": "es5",
+    "target": "es6",
     "outDir": "lib",
     "lib": [
       "dom",
@@ -23,10 +23,12 @@
     "jsx": "react",
   },
   "include": [
-    "src"
-, "src/components/Drag.tsx" ],
+    "src",
+    "src/components/Draggable.tsx"
+  ],
   "exclude": [
     "node_modules",
-    "lib"
+    "lib",
+    "src/stories"
   ]
 }

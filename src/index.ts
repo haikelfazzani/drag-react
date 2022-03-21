@@ -1,3 +1,3 @@
-import {Drag} from "./components/Drag";
+import { Draggable } from "./components/Draggable";
 
-export { Drag };
+export { Draggable };
