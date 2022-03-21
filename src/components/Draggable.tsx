@@ -53,7 +53,7 @@ function Draggable({ children, style, className }: IDraggable) {
   return <div
     ref={dragRef}
     className={className || "drag-react"}
-    style={style || { position: 'fixed', left: '10px', top: '10px' }}
+    style={{ position: 'fixed', left: '10px', top: '10px', zIndex: 99999, cursor: 'move', ...style }}
   >{children}</div>
 }
 

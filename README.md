@@ -2,6 +2,7 @@
 A simple component for making elements draggable.
 
 ### [Demo](https://haikelfazzani.github.io/react-drag/)
+### [stackblitz](https://react-ts-qvltmc.stackblitz.io)
 
 # Installation
 ```shell
@@ -23,7 +24,7 @@ import { Draggable } from 'drag-react';
 | --- | --- | --- | --- |
 | children | `any` | empty | `Component or HTMLElement` |
 | className | `string` | `'drag-react'` | class name |
-| style | `Object` | `{ position: 'fixed', left: '10px', top: '10px' }` | css style |
+| style | `Object` | `{ position: 'fixed', left: '10px', top: '10px', zIndex: 99999 , cursor: 'move' }` | css style |
 
 # License
 MIT

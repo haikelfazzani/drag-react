@@ -6,5 +6,5 @@ import './Draggable.css';
 export default { title: 'Draggable', component: Draggable } as ComponentMeta<typeof Draggable>;
 
 export const Drag: ComponentStory<typeof Draggable> = () => (
-  <Draggable><div>draggable</div></Draggable>
+  <Draggable><div>Draggable</div></Draggable>
 );

@@ -1,6 +1,13 @@
 .drag-react>div {
-  width:100px;
-  height: 100px; 
-  background-color:rgb(255, 79, 79);
+  width: 120px;
+  height: 120px;
+  background-color: rgb(255, 79, 79);
+  color: #fff;
   border-radius: 7px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  text-align: center;
+  letter-spacing: 0.6px;
 }
