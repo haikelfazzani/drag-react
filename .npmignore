@@ -1,0 +1,9 @@
+node_modules/
+lib/
+storybook-static
+node_modules
+
+.cache
+*.zip
+*.rar
+*.tar
