@@ -1,6 +1,6 @@
 {
   "name": "drag-react",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "React draggable component",
   "main": "lib/index.js",
   "module": "lib/index.esm.js",
@@ -8,8 +8,8 @@
   "files": [
     "/lib"
   ],
-  "homepage": "https://haikelfazzani.github.io/react-drag",
-  "repository": "https://github.com/haikelfazzani/react-drag",
+  "homepage": "https://haikelfazzani.github.io/drag-react",
+  "repository": "https://github.com/haikelfazzani/drag-react",
   "scripts": {
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",

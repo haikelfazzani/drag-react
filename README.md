@@ -1,7 +1,7 @@
 # React Draggable Component
 A simple component for making elements draggable.
 
-### [Demo](https://haikelfazzani.github.io/react-drag/)
+### [Demo](https://haikelfazzani.github.io/drag-react/)
 ### [stackblitz](https://react-ts-qvltmc.stackblitz.io)
 
 # Installation
