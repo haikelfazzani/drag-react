@@ -1,7 +1,7 @@
 # React Draggable Component
-A simple component for making elements draggable.
+A simple and lightweight component for making elements draggable.
 
-### [Demo](https://haikelfazzani.github.io/drag-react/)
+### [Demo](https://haikelfazzani.github.io/drag-react)
 ### [stackblitz](https://react-ts-qvltmc.stackblitz.io)
 
 # Installation
@@ -22,9 +22,11 @@ import { Draggable } from 'drag-react';
 ### Props
 | name | type | default | description |
 | --- | --- | --- | --- |
-| children | `any` | empty | `Component or HTMLElement` |
-| className | `string` | `'drag-react'` | class name |
-| style | `Object` | `{ position: 'fixed', left: '10px', top: '10px', zIndex: 99999 , cursor: 'move' }` | css style |
+| children | `any` | `-` | `Some element` |
+| className? | `string` | `'drag-react'` | `Class name for drag wrapper` |
+| style? | `Object` | `{ position: 'fixed', left: '10px', top: '10px', zIndex: 99999 , cursor: 'move' }` | `css style for drag wrapper` |
+| onDragStart? | `(_: DOMRect) => void` | `-` | `Called whenever the user mouses down` |
+| onDragEnd? | `(_: DOMRect) => void` | `-` | `Called when dragging stops` |
 
 # License
 MIT

@@ -6,18 +6,17 @@ import postcss from "rollup-plugin-postcss";
 
 const packageJson = require("./package.json");
 
+const pkg = require('./package.json')
+const banner = `/*! ${pkg.name} - v${pkg.version} | Copyright 2022 - ${pkg.author} */\n`;
+
 export default {
   input: "src/index.ts",
   output: [
     {
-      file: packageJson.main,
-      format: "cjs",
-      sourcemap: true
-    },
-    {
       file: packageJson.module,
       format: "esm",
-      sourcemap: true
+      sourcemap: true,
+      banner
     }
   ],
   plugins: [
@@ -26,7 +25,7 @@ export default {
     commonjs(),
     typescript({ useTsconfigDeclarationDir: true }),
     postcss({
-        extensions: ['.css']
+      extensions: ['.css']
     })
   ]
 };
