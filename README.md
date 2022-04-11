@@ -2,7 +2,7 @@
 A simple and lightweight component for making elements draggable.
 
 ### [Demo](https://haikelfazzani.github.io/drag-react)
-### [stackblitz](https://react-ts-qvltmc.stackblitz.io)
+### [stackblitz](https://stackblitz.com/edit/react-ts-qvltmc?file=index.tsx)
 
 # Installation
 ```shell
