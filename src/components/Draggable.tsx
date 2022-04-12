@@ -76,10 +76,8 @@ function Draggable({ children, style, className, onDragStart, onDragEnd }: IDrag
 
   useEffect(() => {
     const dragDiv = dragRef.current;
-
     dragDiv?.addEventListener('touchstart', onMouseDown, true);
     dragDiv?.addEventListener('mousedown', onMouseDown, true);    
-
     return () => {
       dragDiv?.removeEventListener('touchstart', onMouseDown, true);
       dragDiv?.removeEventListener('mousedown', onMouseDown, true);

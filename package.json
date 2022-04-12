@@ -12,10 +12,7 @@
   "scripts": {
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
-    "build": "rollup -c",
-    "prepublishOnly": "npm run build",
-    "predeploy": "npm run build-storybook",
-    "deploy-storybook": "npm run predeploy && gh-pages -d storybook-static"
+    "build": "rollup -c"
   },
   "author": "Haikel Fazzani",
   "license": "MIT",
