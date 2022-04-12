@@ -1,6 +1,6 @@
 {
   "name": "drag-react",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "React draggable component",
   "module": "lib/index.esm.js",
   "types": "lib/index.d.ts",
