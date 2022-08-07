@@ -28,5 +28,6 @@ import { Draggable } from 'drag-react';
 | onDragStart? | `(_: DOMRect) => void` | `-` | `Called whenever the user mouses down` |
 | onDragEnd? | `(_: DOMRect) => void` | `-` | `Called when dragging stops` |
 
+
 # License
 MIT
