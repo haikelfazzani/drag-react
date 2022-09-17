@@ -7,7 +7,8 @@ export default { title: 'Draggable', component: Draggable } as ComponentMeta<typ
 
 export const Single: ComponentStory<typeof Draggable> = () => (
   <Draggable
-    onDragEnd={(rect: DOMRect) => { console.log(rect) }}
+    onDragStart={(rect: DOMRect) => { console.log('onDragStart => ', rect) }}
+    onDragEnd={(rect: DOMRect) => { console.log('onDragEnd => ', rect) }}
   >
     <div>Draggable</div>
   </Draggable>
@@ -15,7 +16,7 @@ export const Single: ComponentStory<typeof Draggable> = () => (
 
 export const Multiple: ComponentStory<typeof Draggable> = () => (
   <main>
-    <Draggable onDragStart={(rect: DOMRect) => { console.log(rect) }}>
+    <Draggable onDragStart={(rect: DOMRect) => { console.log('onDragStart => ', rect) }}>
       <div>Draggable 1</div>
     </Draggable>
 

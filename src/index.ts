@@ -1,3 +1,5 @@
 import { Draggable } from "./components/Draggable";
 
-export { Draggable };
+export {
+  Draggable
+};

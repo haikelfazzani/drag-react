@@ -5,7 +5,6 @@ import typescript from "rollup-plugin-typescript2";
 import postcss from "rollup-plugin-postcss";
 
 const packageJson = require("./package.json");
-
 const pkg = require('./package.json')
 const banner = `/*! ${pkg.name} - v${pkg.version} | Copyright 2022 - ${pkg.author} */\n`;
 
